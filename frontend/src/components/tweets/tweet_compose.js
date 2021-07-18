@@ -8,7 +8,7 @@ class TweetCompose extends React.Component {
       this.state = {
           text: "",
           newTweet: ""
-      }
+      };
 
       this.handleSubmit = this.handleSubmit.bind(this);
   } 
