@@ -75,7 +75,7 @@ router.post('/login', (req, res) => {
           if (isMatch) {
             res.json({msg: 'Success'});
           } else {
-            // And here:
+            
             errors.password = 'Incorrect password'
             return res.status(400).json(errors);
           }
